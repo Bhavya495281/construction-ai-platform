@@ -1,0 +1,21 @@
+{
+  "name": "construction-ai-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multimodal Construction Intelligence Platform powered by Gemini AI and FastAPI",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && uvicorn main:app --reload --port 8000"
+  },
+  "keywords": [
+    "construction",
+    "ai",
+    "gemini",
+    "civil-engineering",
+    "react",
+    "fastapi"
+  ],
+  "author": "Bhavya Godhwani",
+  "license": "MIT"
+}

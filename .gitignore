@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.venv/
+venv/
+env/
+
+# Build artifacts
+dist/
+frontend/dist/
+build/
+.vercel/
+
+# Environment files (keep .env.example)
+backend/.env
+.env
+.env.local
+
+# Python cache
+__pycache__/
+backend/__pycache__/
+api/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# System and IDE files
+.DS_Store
+*/.DS_Store
+.vscode/
+.idea/
